@@ -1,0 +1,16 @@
+DEBUG    root:initializePremise.py:55 测试信息处理结果：{'title': 'product', 'host': '114.242.62.22:7007', 'scheme': 'http', 'method': 'POST', 'address': '/boss/pay/product/add', 'mime_type': 'application/x-www-form-urlencoded', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}, 'timeout': 10, 'file': False, 'cookies': False, 'premise': False}
+DEBUG    root:initializePremise.py:119 请求参数处理结果：{'navTabId': 'zfcpgl', 'callbackType': 'closeCurrent', 'forwardUrl': '', 'productCode': '112', 'productName': '1213'}
+DEBUG    root:readRelevance.py:75 获取关联键列表:
+[]
+DEBUG    root:initializePremise.py:126 期望返回处理结果：{'summary': 'pay', 'describe': 'test_pay', 'parameter': {'navTabId': 'zfcpgl', 'callbackType': 'closeCurrent', 'forwardUrl': '', 'productCode': '112', 'productName': '1213'}, 'check_body': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': {'statusCode': '200', 'message': '操作成功', 'navTabId': 'zfcpgl', 'callbackType': 'closeCurrent', 'forwardUrl': ''}}}
+INFO     root:apiSend.py:37 ======================================================================================================================================================
+INFO     root:apiSend.py:38 请求接口：pay
+INFO     root:apiSend.py:39 请求地址：http://114.242.62.22:7007/boss/pay/product/add
+INFO     root:apiSend.py:40 请求头: {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO     root:apiSend.py:41 请求参数: {'navTabId': 'zfcpgl', 'callbackType': 'closeCurrent', 'forwardUrl': '', 'productCode': '112', 'productName': '1213'}
+INFO     root:apiSend.py:58 请求方法: POST
+DEBUG    urllib3.connectionpool:connectionpool.py:226 Starting new HTTP connection (1): 114.242.62.22:7007
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://114.242.62.22:7007 "POST /boss/pay/product/add HTTP/1.1" 302 0
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://114.242.62.22:7007 "GET /boss/login;jsessionid=145CD3153180BB1A936EF5C8CC74FEEE HTTP/1.1" 200 2888
+INFO     root:apiSend.py:137 请求接口结果：
+ (200, None)

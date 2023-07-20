@@ -1,0 +1,38 @@
+2023-04-21 17:09:32,968 - startup.py - INFO: 根据接口抓包数据，自动生成测试用例和测试脚本，然后运行测试！
+2023-04-21 17:09:32,968 - writeCaseYml.py - INFO: 读取抓包文件主目录: C:/Users/33233/Desktop/ApiTesting-main/PyDemo/data
+2023-04-21 17:09:32,968 - writeCaseYml.py - INFO: 读取抓包文件: pay.chlsj
+2023-04-21 17:09:33,857 - initializePremise.py - DEBUG: 测试信息处理结果：{'title': 'product', 'host': '114.242.62.22:7007', 'scheme': 'http', 'method': 'POST', 'address': '/boss/pay/product/add', 'mime_type': 'application/x-www-form-urlencoded', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}, 'timeout': 10, 'file': False, 'cookies': False, 'premise': False}
+2023-04-21 17:09:33,857 - initializePremise.py - DEBUG: 请求参数处理结果：{'navTabId': 'zfcpgl', 'callbackType': 'closeCurrent', 'forwardUrl': '', 'productCode': '112', 'productName': '1213'}
+2023-04-21 17:09:33,857 - readRelevance.py - DEBUG: 获取关联键列表:
+[]
+2023-04-21 17:09:33,857 - initializePremise.py - DEBUG: 期望返回处理结果：{'summary': 'pay', 'describe': 'test_pay', 'parameter': {'navTabId': 'zfcpgl', 'callbackType': 'closeCurrent', 'forwardUrl': '', 'productCode': '112', 'productName': '1213'}, 'check_body': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': {'statusCode': '200', 'message': '操作成功', 'navTabId': 'zfcpgl', 'callbackType': 'closeCurrent', 'forwardUrl': ''}}}
+2023-04-21 17:09:33,857 - apiSend.py - INFO: ======================================================================================================================================================
+2023-04-21 17:09:33,857 - apiSend.py - INFO: 请求接口：pay
+2023-04-21 17:09:33,857 - apiSend.py - INFO: 请求地址：http://114.242.62.22:7007/boss/pay/product/add
+2023-04-21 17:09:33,857 - apiSend.py - INFO: 请求头: {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+2023-04-21 17:09:33,857 - apiSend.py - INFO: 请求参数: {'navTabId': 'zfcpgl', 'callbackType': 'closeCurrent', 'forwardUrl': '', 'productCode': '112', 'productName': '1213'}
+2023-04-21 17:09:33,857 - apiSend.py - INFO: 请求方法: POST
+2023-04-21 17:09:33,867 - connectionpool.py - DEBUG: Starting new HTTP connection (1): 114.242.62.22:7007
+2023-04-21 17:09:33,978 - connectionpool.py - DEBUG: http://114.242.62.22:7007 "POST /boss/pay/product/add HTTP/1.1" 302 0
+2023-04-21 17:09:34,018 - connectionpool.py - DEBUG: http://114.242.62.22:7007 "GET /boss/login;jsessionid=12A48C9470F4FEA71DF23A0ABB3EF006 HTTP/1.1" 200 2888
+2023-04-21 17:09:34,018 - apiSend.py - INFO: 请求接口结果：
+ (200, None)
+2023-04-21 17:12:39,085 - startup.py - INFO: 根据接口抓包数据，自动生成测试用例和测试脚本，然后运行测试！
+2023-04-21 17:12:39,085 - writeCaseYml.py - INFO: 读取抓包文件主目录: C:/Users/33233/Desktop/ApiTesting-main/PyDemo/data
+2023-04-21 17:12:39,085 - writeCaseYml.py - INFO: 读取抓包文件: pay.chlsj
+2023-04-21 17:12:39,840 - initializePremise.py - DEBUG: 测试信息处理结果：{'title': 'product', 'host': '114.242.62.22:7007', 'scheme': 'http', 'method': 'POST', 'address': '/boss/pay/product/add', 'mime_type': 'application/x-www-form-urlencoded', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}, 'timeout': 10, 'file': False, 'cookies': False, 'premise': False}
+2023-04-21 17:12:39,840 - initializePremise.py - DEBUG: 请求参数处理结果：{'navTabId': 'zfcpgl', 'callbackType': 'closeCurrent', 'forwardUrl': '', 'productCode': '112', 'productName': '1213'}
+2023-04-21 17:12:39,840 - readRelevance.py - DEBUG: 获取关联键列表:
+[]
+2023-04-21 17:12:39,840 - initializePremise.py - DEBUG: 期望返回处理结果：{'summary': 'pay', 'describe': 'test_pay', 'parameter': {'navTabId': 'zfcpgl', 'callbackType': 'closeCurrent', 'forwardUrl': '', 'productCode': '112', 'productName': '1213'}, 'check_body': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': {'statusCode': '200', 'message': '操作成功', 'navTabId': 'zfcpgl', 'callbackType': 'closeCurrent', 'forwardUrl': ''}}}
+2023-04-21 17:12:39,840 - apiSend.py - INFO: ======================================================================================================================================================
+2023-04-21 17:12:39,840 - apiSend.py - INFO: 请求接口：pay
+2023-04-21 17:12:39,840 - apiSend.py - INFO: 请求地址：http://114.242.62.22:7007/boss/pay/product/add
+2023-04-21 17:12:39,840 - apiSend.py - INFO: 请求头: {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+2023-04-21 17:12:39,840 - apiSend.py - INFO: 请求参数: {'navTabId': 'zfcpgl', 'callbackType': 'closeCurrent', 'forwardUrl': '', 'productCode': '112', 'productName': '1213'}
+2023-04-21 17:12:39,840 - apiSend.py - INFO: 请求方法: POST
+2023-04-21 17:12:39,840 - connectionpool.py - DEBUG: Starting new HTTP connection (1): 114.242.62.22:7007
+2023-04-21 17:12:40,406 - connectionpool.py - DEBUG: http://114.242.62.22:7007 "POST /boss/pay/product/add HTTP/1.1" 302 0
+2023-04-21 17:12:40,446 - connectionpool.py - DEBUG: http://114.242.62.22:7007 "GET /boss/login;jsessionid=145CD3153180BB1A936EF5C8CC74FEEE HTTP/1.1" 200 2888
+2023-04-21 17:12:40,446 - apiSend.py - INFO: 请求接口结果：
+ (200, None)
