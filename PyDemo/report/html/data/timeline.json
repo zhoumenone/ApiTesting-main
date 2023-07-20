@@ -1,0 +1,30 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "LAPTOP-8MU3MRG8",
+    "children" : [ {
+      "name" : "23148-MainThread",
+      "children" : [ {
+        "name" : "test_pay[test_case0]",
+        "uid" : "5f4ad95d678cbcfc",
+        "parentUid" : "b751ca6f2d63be6c7fdd4abc61de26d3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682068359841,
+          "stop" : 1682068361447,
+          "duration" : 1606
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'summary': 'pay', 'describe': 'test_pay', 'parameter': {'navTabId': 'zfcpgl', 'callbackType': 'closeCurrent', 'forwardUrl': '', 'productCode': '112', 'productName': '1213'}, 'check_body': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': {'statusCode': '200', 'message': '操作成功', 'navTabId': 'zfcpgl', 'callbackType': 'closeCurrent', 'forwardUrl': ''}}}" ]
+      } ],
+      "uid" : "b751ca6f2d63be6c7fdd4abc61de26d3"
+    } ],
+    "uid" : "5828e8c42ee81bf1bcd780377f981be7"
+  } ],
+  "name" : "timeline"
+}

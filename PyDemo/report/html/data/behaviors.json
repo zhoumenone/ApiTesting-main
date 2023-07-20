@@ -1,0 +1,30 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "product",
+    "children" : [ {
+      "name" : "test_pay",
+      "children" : [ {
+        "name" : "test_pay[test_case0]",
+        "uid" : "5f4ad95d678cbcfc",
+        "parentUid" : "a223697f97d8f18f8dfe91272d2d39c1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682068359841,
+          "stop" : 1682068361447,
+          "duration" : 1606
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'summary': 'pay', 'describe': 'test_pay', 'parameter': {'navTabId': 'zfcpgl', 'callbackType': 'closeCurrent', 'forwardUrl': '', 'productCode': '112', 'productName': '1213'}, 'check_body': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': {'statusCode': '200', 'message': '操作成功', 'navTabId': 'zfcpgl', 'callbackType': 'closeCurrent', 'forwardUrl': ''}}}" ]
+      } ],
+      "uid" : "a223697f97d8f18f8dfe91272d2d39c1"
+    } ],
+    "uid" : "ee022d035fe7c0ccffe870761d0daf89"
+  } ],
+  "name" : "behaviors"
+}

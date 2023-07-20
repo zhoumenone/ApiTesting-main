@@ -1,0 +1,30 @@
+test_info:
+  title: product
+  host: ${host}
+  scheme: ${scheme}
+  method: POST
+  address: /boss/pay/product/add
+  mime_type: application/x-www-form-urlencoded
+  headers: ${headers}
+  timeout: ${timeout}
+  file: false
+  cookies: false
+  premise: false
+test_case:
+- summary: pay
+  describe: test_pay
+  parameter:
+    navTabId: zfcpgl
+    callbackType: closeCurrent
+    forwardUrl: ''
+    productCode: '112'
+    productName: '1213'
+  check_body:
+    check_type: check_json
+    expected_code: 200
+    expected_result:
+      statusCode: '200'
+      message: 操作成功
+      navTabId: zfcpgl
+      callbackType: closeCurrent
+      forwardUrl: ''

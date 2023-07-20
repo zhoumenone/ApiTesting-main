@@ -1,0 +1,22 @@
+{
+  "9d8074231baa959cd838087b6c2d095d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5f4ad95d678cbcfc",
+      "status" : "broken",
+      "statusDetails" : "Exception: JSON格式校验，关键字 statusCode 不在返回结果 {} 中！",
+      "time" : {
+        "start" : 1682068359841,
+        "stop" : 1682068361447,
+        "duration" : 1606
+      }
+    } ]
+  }
+}

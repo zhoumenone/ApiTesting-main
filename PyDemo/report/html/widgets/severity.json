@@ -1,0 +1,11 @@
+[ {
+  "uid" : "5f4ad95d678cbcfc",
+  "name" : "test_pay[test_case0]",
+  "time" : {
+    "start" : 1682068359841,
+    "stop" : 1682068361447,
+    "duration" : 1606
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
